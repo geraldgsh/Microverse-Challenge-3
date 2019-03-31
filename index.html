@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+			<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 		<header id="header">
             <img id="header-img"></img>
             <nav id="nav-bar">
@@ -20,7 +21,7 @@
 		<section id = "price" class = "price"></section>
 		<section id = "location" class = "location"></section>
 		<section id = "contact-us" class = "contact-us">
-			<form id="form">
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
 				<h3>Contact Us</h3>
 				<fieldset>
 					<input placeholder="Your name" type="text" tabindex="1" required autofocus>
@@ -31,8 +32,9 @@
 				<fieldset>
 					<textarea placeholder="Type your Message Here...." tabindex="3" required></textarea>
 				</fieldset>
-				
-			<input id="submit" type="submit">
+				<fieldset>
+					<button><input id="submit" type="submit" value="Get Started" class="btn" action="https://www.freecodecamp.com/email-submit" method="POST"></input></button>
+				</fieldset>	
 			</form>			
 		</section>
 	</body>
