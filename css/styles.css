@@ -1,0 +1,28 @@
+.home{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	background: url("https://cdn-images-1.medium.com/max/2000/1*buAlXkwPmNAOOG23fX6rFw.jpeg")no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 1000px;
+}
+
+.price{
+    padding:120px 0 90px;
+    background-color: blue;
+    min-height: 200px;
+}
+
+.location{
+    padding:120px 0 90px;
+    background-color: grey;
+    min-height: 200px;
+}
+
+.contact-us{
+    padding:120px 0 90px;
+    background-color: green;
+    min-height: 200px;
+}
